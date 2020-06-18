@@ -1,0 +1,53 @@
+.jumbo__picture {
+  background-image: url("../assets/images/image.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-left: 10vh;
+  padding-top: 10vh;
+  background-size: 40%;
+}
+
+.underline-title {
+  text-decoration: underline;
+  text-decoration-color: #f3ec39;
+}
+
+.image-responsive {
+  width: 50%;
+  height: 50%;
+}
+.introduction-text {
+  margin-top: 120px;
+  font-size: 40px !important;
+  line-height: 20px !important;
+}
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 38px;
+}
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .jumbo__picture {
+    height: 50vh;
+    padding-left: 5vh;
+    padding-top: 13vh;
+  }
+  .introduction-text {
+    margin-top: 0 !important;
+  }
+}
