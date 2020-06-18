@@ -33,7 +33,7 @@ export default function Index() {
           <div className="row">
             <div className="col-lg-3 aboutgrid2">
               <Fade left>
-                <img src={image} className="img-fluid rounded shadow" />
+                <img src={image} className="img-fluid rounded shadow" alt="Chiamaka Mayowa Osuchukwu"/>
               </Fade>
             </div>
             <div className="col-lg-9 aboutgrid2">
