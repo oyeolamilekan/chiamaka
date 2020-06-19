@@ -38,7 +38,7 @@ export default function Index() {
         <div className="container mb-5">
           <Fade bottom>
             <p>
-              The book "32 secrets teens wish their parents" knew is currently
+              The book "32 secrets teens wish their parents knew" is currently
               available for Pre-order from now until 17th of July. The book will
               be available for collection from 19th of July. To read more about
               the book and to Pre-order, please <Link to="/about_book"> click here.</Link>
