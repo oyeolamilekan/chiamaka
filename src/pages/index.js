@@ -5,7 +5,6 @@ import Fade from "react-reveal/Fade";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import React from "react";
-import image from "../assets/images/chiamaka.jpg";
 import { Link } from "react-router-dom";
 
 export default function Index() {

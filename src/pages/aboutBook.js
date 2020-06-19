@@ -6,7 +6,6 @@ import Fade from "react-reveal/Fade";
 import Footer from "../components/footer";
 import { Modal } from "react-bootstrap";
 import Navbar from "../components/navbar";
-import { Link } from "react-router-dom";
 
 export default function AboutBook() {
   const [modal, showModal] = useState(false);
@@ -42,7 +41,7 @@ export default function AboutBook() {
           </p>
         </Fade>
         <Countdown date={"2020-07-17"} />
-        <a href="https://paystack.com/pay/smyw4rrr5l" target="_blank" className="btn btn-warning text-white w-50 btn-lg">
+        <a href="https://paystack.com/pay/smyw4rrr5l" target="_blank" className="btn btn-warning text-white w-50 btn-lg" rel="noopener noreferrer">
         <b>
           Pre Order Book
           </b>
