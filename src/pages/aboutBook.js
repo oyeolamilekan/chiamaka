@@ -6,6 +6,7 @@ import Fade from "react-reveal/Fade";
 import Footer from "../components/footer";
 import { Modal } from "react-bootstrap";
 import Navbar from "../components/navbar";
+import { Link } from "react-router-dom";
 
 export default function AboutBook() {
   const [modal, showModal] = useState(false);
@@ -28,7 +29,6 @@ export default function AboutBook() {
               style={{ width: "100%" }}
             />
           </Fade>
-        </div>
         <Fade bottom>
           <p className="mb-3">
             This book was written to unravel the untold secrets of teenagers.
@@ -42,7 +42,14 @@ export default function AboutBook() {
           </p>
         </Fade>
         <Countdown date={"2020-07-17"} />
+        <a href="https://paystack.com/pay/smyw4rrr5l" target="_blank" className="btn btn-warning text-white w-50 btn-lg">
+        <b>
+          Pre Order Book
+          </b>
+        </a>
       </div>
+        </div>
+
       <Modal show={modal} animation={true} onHide={handleClose}>
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>

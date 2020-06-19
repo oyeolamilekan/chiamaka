@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../styles/component.css';
 
 class Countdown extends Component {
   constructor(props) {
@@ -80,7 +81,7 @@ class Countdown extends Component {
     const countDown = this.state;
 
     return (
-      <div className="Countdown mb-5 text-center">
+      <div className="Countdown mb-1 text-center">
         <h3 className="mb-3">
           <b>COUNTDOWN TO PRINTED COPY</b>
         </h3>
