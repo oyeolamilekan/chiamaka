@@ -57,7 +57,7 @@ export default function AboutBook() {
             rel="noopener noreferrer"
             onClick={handleOpen}
           >
-            <b>Pre Order Soft Copy</b>
+            <b>Order Soft Copy</b>
           </button>
         </div>
         </Fade>
