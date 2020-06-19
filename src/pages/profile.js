@@ -4,25 +4,12 @@ import Fade from "react-reveal/Fade";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import React from "react";
-import image from "../assets/images/chiamaka.jpg"
+import image from "../assets/images/chiamaka.jpg";
 
 export default function Profile() {
   return (
     <div>
       <Navbar />
-      <div className="jumbo__picture">
-        <div className="introduction-text">
-          <Fade top>
-            <h1>Hello, i'm</h1>
-          </Fade>
-          <Fade bottom>
-            <h1>
-              <b>Chiamaka</b>
-            </h1>
-            <h1 className="underline-title">AUTHOR</h1>
-          </Fade>
-        </div>
-      </div>
       <section className="about-me p-4">
         <Fade top>
           <h2>

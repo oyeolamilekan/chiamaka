@@ -12,9 +12,21 @@ export default function Index() {
   return (
     <div>
       <Navbar />
-      
+      <div className="jumbo__picture">
+        <div className="introduction-text">
+          <Fade top>
+            <h1>Hello, i'm</h1>
+          </Fade>
+          <Fade bottom>
+            <h1>
+              <b>Chiamaka</b>
+            </h1>
+            {/* <h1 className="underline-title">and I am happy to have you here!</h1> */}
+          </Fade>
+        </div>
+      </div>
       <section className="about-book">
-        <div className="text-center mb-3 mt-3">
+        <div className="text-center mb-3">
           <Fade bottom>
             <img
               src={CoverPhoto}
