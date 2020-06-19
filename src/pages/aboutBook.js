@@ -39,10 +39,21 @@ export default function AboutBook() {
             book is all you need. I fervently hope you find the answers you
             seek..
           </p>
-        </Fade>
-        <p>
+          <div className="text-center">
+          <p>
           Pre-order the hard copy for – 1800 Naira (excluding delivery fee).
         </p>
+          <a
+            href="https://paystack.com/pay/smyw4rrr5l"
+            target="_blank"
+            className="btn btn-warning text-white w-50 btn-lg mb-3"
+            rel="noopener noreferrer"
+          >
+            <b>Pre Order Book</b>
+          </a>
+        </div>
+        </Fade>
+        
 
         <h3>
           <b>Alternatively, you can transfer</b>
@@ -56,16 +67,7 @@ export default function AboutBook() {
           +2349067819549 with a proof of payment, full name, email and delivery
           address (for hard copy).
         </p>
-        <div className="text-center">
-          <a
-            href="https://paystack.com/pay/smyw4rrr5l"
-            target="_blank"
-            className="btn btn-warning text-white w-50 btn-lg mb-3"
-            rel="noopener noreferrer"
-          >
-            <b>Pre Order Book</b>
-          </a>
-        </div>
+        
       </div>
 
       <Modal show={modal} animation={true} onHide={handleClose}>
