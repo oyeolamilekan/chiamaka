@@ -1,11 +1,12 @@
 import "../styles/first.css";
 
+import Countdown from "../components/countdown";
 import CoverPhoto from "../assets/images/book-cover.jpg";
 import Fade from "react-reveal/Fade";
 import Footer from "../components/footer";
+import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
@@ -42,6 +43,7 @@ export default function Index() {
               be available for collection from 19th of July. To read more about
               the book and to Pre-order, please <Link to="/about_book"> click here.</Link>"
             </p>
+          <Countdown date={"2020-07-17"} />
           </Fade>
         </div>
       </section>

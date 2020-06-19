@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import Countdown from "../components/countdown";
 import CoverPhoto from "../assets/images/book-cover.jpg";
 import Fade from "react-reveal/Fade";
 import Footer from "../components/footer";
@@ -28,8 +27,9 @@ export default function AboutBook() {
               style={{ width: "100%" }}
             />
           </Fade>
+        </div>
         <Fade bottom>
-          <p className="mb-3">
+          <p className="mb-3 text-center">
             This book was written to unravel the untold secrets of teenagers.
             Despite all the happenings in our lives (right now, in the past, in
             the future to come), there is still room for improvement. As they
@@ -40,14 +40,33 @@ export default function AboutBook() {
             seek..
           </p>
         </Fade>
-        <Countdown date={"2020-07-17"} />
-        <a href="https://paystack.com/pay/smyw4rrr5l" target="_blank" className="btn btn-warning text-white w-50 btn-lg" rel="noopener noreferrer">
-        <b>
-          Pre Order Book
-          </b>
-        </a>
-      </div>
+        <p>
+          Pre-order the hard copy for – 1800 Naira (excluding delivery fee).
+        </p>
+
+        <h3>
+          <b>Alternatively, you can transfer</b>
+        </h3>
+        <p>
+          1800 Naira (for hard copy excluding delivery charges) to:
+          <p>Account number: 2002358734</p>
+          <p>Name: Abimbola Osuchukwu</p>
+          <p>Bank: Zenith bank</p>
+          If you paid by transfer, kindly send a WhatsApp message through
+          +2349067819549 with a proof of payment, full name, email and delivery
+          address (for hard copy).
+        </p>
+        <div className="text-center">
+          <a
+            href="https://paystack.com/pay/smyw4rrr5l"
+            target="_blank"
+            className="btn btn-warning text-white w-50 btn-lg mb-3"
+            rel="noopener noreferrer"
+          >
+            <b>Pre Order Book</b>
+          </a>
         </div>
+      </div>
 
       <Modal show={modal} animation={true} onHide={handleClose}>
         <Modal.Header closeButton></Modal.Header>
