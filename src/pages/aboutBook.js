@@ -44,7 +44,7 @@ export default function AboutBook() {
           Pre-order the hard copy for – 1800 Naira (excluding delivery fee).
         </p>
           <a
-            href="https://paystack.com/pay/smyw4rrr5l"
+            href="https://paystack.com/pay/ys7cyiy2nv"
             target="_blank"
             className="btn btn-warning text-white w-50 btn-lg mb-3"
             rel="noopener noreferrer"
