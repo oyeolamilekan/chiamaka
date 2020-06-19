@@ -8,7 +8,7 @@ import Navbar from "../components/navbar";
 
 export default function AboutBook() {
   const [modal, showModal] = useState(false);
-  // const handleOpen = () => showModal(true);
+  const handleOpen = () => showModal(true);
   const handleClose = () => showModal(false);
   return (
     <div>
@@ -49,8 +49,16 @@ export default function AboutBook() {
             className="btn btn-warning text-white w-50 btn-lg mb-3"
             rel="noopener noreferrer"
           >
-            <b>Pre Order Book</b>
+            <b>Pre Order Hard Copy</b>
           </a>
+          <br/>
+          <button
+            className="btn btn-warning text-white w-50 btn-lg mb-3"
+            rel="noopener noreferrer"
+            onClick={handleOpen}
+          >
+            <b>Pre Order Soft Copy</b>
+          </button>
         </div>
         </Fade>
         
