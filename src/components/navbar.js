@@ -1,4 +1,4 @@
-import { FiBook, FiHome } from "react-icons/fi";
+import { FiBook, FiHome, FiUser } from "react-icons/fi";
 
 import Logo from "../assets/images/rsz_id.png";
 import { NavLink } from "react-router-dom";
@@ -56,6 +56,21 @@ export default function Navbar() {
               >
                   <FiBook className="mr-2"/>
                 My Book
+              </NavLink>
+            </li>
+            <li
+              className={`nav-item`}
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <NavLink
+                exact
+                to="/profile"
+                activeClassName="active"
+                className="nav-link"
+              >
+                  <FiUser className="mr-2"/>
+                My Profile
               </NavLink>
             </li>
           </ul>
