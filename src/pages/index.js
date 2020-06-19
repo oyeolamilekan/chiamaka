@@ -15,11 +15,16 @@ export default function Index() {
       <div className="jumbo__picture">
         <div className="introduction-text">
           <Fade top>
-            <h1>Hello, i'm</h1>
+            <h1 className="font-weight-light">Hello, i'm</h1>
           </Fade>
           <Fade bottom>
             <h1>
               <b>Chiamaka</b>
+            </h1>
+            <h1>
+              <b>
+              Osuchukwu
+              </b>
             </h1>
             {/* <h1 className="underline-title">and I am happy to have you here!</h1> */}
           </Fade>
