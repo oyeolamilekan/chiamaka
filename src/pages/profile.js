@@ -34,7 +34,7 @@ export default function Profile() {
                   an entrepreneur at heart. What is more, she is a Senior
                   Secondary School (SSS 1) student of the prestigious Louisville
                   Girls High School Ijebu-Itele, Ogun State. Beautifully enough,
-                  Chiamaka is the first born childreen and the only daughter of
+                  Chiamaka is the first born child and the only daughter of
                   her parents.
                 </p>
                 <p>
