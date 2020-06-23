@@ -60,8 +60,8 @@ export default function AboutBook() {
         </h3>
         <p>
           1800 Naira (for hard copy excluding delivery charges) to:
-          <p>Account number: 2002358734</p>
-          <p>Name: Abimbola Osuchukwu</p>
+          <p>Account number: 2051700719</p>
+          <p>Name: OSUCHUKWU CHIAMAKA MAYOWA</p>
           <p>Bank: Zenith bank</p>
           If you paid by transfer, kindly send a WhatsApp message through
           +2349067819549 with a proof of payment, full name, email and delivery
