@@ -40,7 +40,7 @@ export default function Index() {
         <div className="container mb-5">
           <Fade bottom>
             <p>
-              TThe book "32 Secrets Teens Wish Their Parents Knew" is now fully
+              The book "32 Secrets Teens Wish Their Parents Knew" is now fully
               available. To read more about the book and to submit payment,
               <Link to="/about_book"> click here.</Link>
             </p>
