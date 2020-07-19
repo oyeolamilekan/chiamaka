@@ -40,15 +40,14 @@ export default function AboutBook() {
           </p>
           <div className="text-center">
           <p>
-          Pre-order the hard copy for – 1800 Naira (excluding delivery fee).
-        </p>
+          Order the hardcopy for 2000 Naira (excluding delivery fee).        </p>
           <a
-            href="https://paystack.com/pay/ys7cyiy2nv"
+            href="https://paystack.com/pay/32secretsteens"
             target="_blank"
             className="btn btn-warning text-white w-50 btn-lg mb-3"
             rel="noopener noreferrer"
           >
-            <b>Pre Order Hard Copy</b>
+            <b>Order Hard Copy</b>
           </a>
           <br/>
         </div>
@@ -59,8 +58,7 @@ export default function AboutBook() {
           <b>Alternatively, you can transfer</b>
         </h3>
         <p>
-          1800 Naira (for hard copy excluding delivery charges) to:
-          <p>Account number: 2051700719</p>
+          Order the hardcopy for 2000 Naira (excluding delivery fee).          <p>Account number: 2051700719</p>
           <p>Name: OSUCHUKWU CHIAMAKA MAYOWA</p>
           <p>Bank: Zenith bank</p>
           If you paid by transfer, kindly send a WhatsApp message through

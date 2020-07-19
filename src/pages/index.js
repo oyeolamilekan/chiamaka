@@ -22,9 +22,7 @@ export default function Index() {
               <b>Chiamaka</b>
             </h1>
             <h1>
-              <b>
-              Osuchukwu
-              </b>
+              <b>Osuchukwu</b>
             </h1>
             {/* <h1 className="underline-title">and I am happy to have you here!</h1> */}
           </Fade>
@@ -43,12 +41,10 @@ export default function Index() {
         <div className="container mb-5">
           <Fade bottom>
             <p>
-              The book "32 secrets teens wish their parents knew" is currently
-              available for Pre-order from now until 17th of July. The book will
-              be available for collection from 19th of July. To read more about
-              the book and to Pre-order, please <Link to="/about_book"> click here.</Link>
+              TThe book "32 Secrets Teens Wish Their Parents Knew" is now fully
+              available. To read more about the book and to submit payment,
+              <Link to="/about_book"> click here.</Link>
             </p>
-          <Countdown date={"2020-07-17"} />
           </Fade>
         </div>
       </section>
